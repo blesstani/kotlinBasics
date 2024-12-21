@@ -7,7 +7,7 @@ class Human(n:String){
     var name:String=n
     var age: Int=0
     constructor(age: Int, name:String) : this(name){
-        this.age=age;
+        this.age=age
     }
 
     fun express(){
