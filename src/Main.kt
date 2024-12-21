@@ -1,3 +1,4 @@
+import playGround.Car
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -16,5 +17,6 @@ class Human(n:String){
 fun main() {
     val ben= Human(40,"Ben")
     ben.express()
-
+ val lil = Car(3,"John",)
+    lil.display()
 }
